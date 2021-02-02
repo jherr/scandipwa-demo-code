@@ -4,9 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "scandipwa": {
-    "type": "extension",
-    "extensions": {
-      "extension": true
-    }
+    "type": "extension"
   }
 }
