@@ -5305,10 +5305,9 @@ extend@~3.0.2:
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
-extension@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/extension/-/extension-0.2.2.tgz#a1e37c4ae1c8ea32e0172cbc23f9bb2ae451ecd1"
-  integrity sha512-Ui0gR2zpiK2PrHLf4xmujfPoKP5K9H4UhE4maIlPF0NCNRoGsS0yJXRa8sbCa1DglaPIi1Svjwj0OzL5yYkBqw==
+"extension@link:../extension":
+  version "0.0.0"
+  uid ""
 
 external-editor@^3.0.3:
   version "3.1.0"

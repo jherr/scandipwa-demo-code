@@ -1,7 +1,7 @@
-import React from "react";
+import { Component } from "react";
 
 /** @namespace scandi-test/WelcomePageComponent */
-export class WelcomePageComponent extends React.Component {
+export class WelcomePageComponent extends Component {
   renderHello() {
     return "Hello - default value";
   }
