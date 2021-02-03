@@ -1,6 +1,18 @@
-# Following issues were discovered in this repository
+ScandiPWA Plugins Test
+======================
 
-1. Folder `plugins` may only contain plugins, which export an object, components, anything else can not be located here. Action: **I will try adding more detailed message about that!**.
-2. Extensions can not enable themself - the enabled extension resoltion is recurive - from your application root we scan all enabled extensions up, so it is not reccomended to enable extension in the same extension. Action - **I will try adding an warnign about that**
-3. For some reason, potentially for some babel-specific reason the following code: `import React from "react";` and then `React.Component` did not function correctly. Use the `import { Component } from "react";` instead. This is a bug, but I am not sure if I will be able to address it soon enough.
-4. Finally and most importantly, the local modules can only by symlinked if their version in `package.json` starts with `link:` and you are using `yarn` or `file:` but then manual symlinking is needed (`yarn link` or `npm link`).
+# Install
+
+In the top level directory:
+
+```sh
+% yarn
+```
+
+# Running the code
+
+In `scandi-test`:
+
+```sh
+% yarn start
+```
