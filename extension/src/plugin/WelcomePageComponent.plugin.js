@@ -1,9 +1,9 @@
-import HelloWorldComponent from "../components/HelloWorldComponent";
+import BeverageComponent from "../components/BeverageComponent";
 
 export default {
-  "scandi-test/WelcomePageComponent": {
+  "scandi-test/ComponentFactory": {
     "member-function": {
-      renderHello: () => <HelloWorldComponent />,
+      getBeverageComponent: () => BeverageComponent,
     },
   },
 };
