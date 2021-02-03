@@ -17,7 +17,7 @@ export default {
   },
   "growlers/TapList": {
     "member-function": {
-      renderAddToChart: () => <Button colorScheme="orange">Add To Cart</Button>,
+      renderAddToCart: () => <Button colorScheme="orange">Add To Cart</Button>,
     },
   },
 };

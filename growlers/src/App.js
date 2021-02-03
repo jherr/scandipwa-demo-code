@@ -29,7 +29,7 @@ export const filter = (list) => list.slice(0, 10);
 
 /** @namespace growlers/TapList */
 class TapList extends Component {
-  renderAddToChart() {
+  renderAddToCart() {
     return null;
   }
 
@@ -43,7 +43,7 @@ class TapList extends Component {
               <Text size="2xl">
                 <strong>{bev.producerName}</strong>: {bev.beverageName}
               </Text>
-              {this.renderAddToChart(bev)}
+              {this.renderAddToCart(bev)}
             </Box>
           </Grid>
         ))}
