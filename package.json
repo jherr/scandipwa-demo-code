@@ -1,0 +1,11 @@
+{
+  "name": "scandi-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+  },
+  "workspaces": [
+    "extension",
+    "scandi-test"
+  ]
+}
