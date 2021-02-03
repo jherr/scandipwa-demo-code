@@ -1,3 +1,5 @@
+import { ChakraProvider, Heading } from "@chakra-ui/react";
+
 import ComponentFactory from "./ComponentFactory";
 
 const factory = new ComponentFactory();
@@ -5,11 +7,15 @@ const BeverageComponent = factory.getBeverageComponent();
 
 function App() {
   return (
-    <div className="App">
-      <h1>Stuff above</h1>
+    <ChakraProvider>
+      <Heading as="h2" size="xl">
+        Stuff above
+      </Heading>
       <BeverageComponent />
-      <h1>Stuff below</h1>
-    </div>
+      <Heading as="h2" size="xl">
+        Stuff below
+      </Heading>
+    </ChakraProvider>
   );
 }
 
