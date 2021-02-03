@@ -1,6 +1,6 @@
 import { ChakraProvider, Heading } from "@chakra-ui/react";
 
-import ComponentFactory from "./ComponentFactory";
+import ComponentFactory, { SomeFunction } from "./ComponentFactory";
 
 const factory = new ComponentFactory();
 const BeverageComponent = factory.getBeverageComponent();
@@ -11,6 +11,7 @@ function App() {
       <Heading as="h2" size="xl">
         Stuff above
       </Heading>
+      <div>{SomeFunction()}</div>
       <BeverageComponent />
       <Heading as="h2" size="xl">
         Stuff below

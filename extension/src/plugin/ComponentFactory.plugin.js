@@ -6,4 +6,7 @@ export default {
       getBeverageComponent: () => BeverageComponent,
     },
   },
+  "scandi-test/ComponentFactory/function": {
+    function: () => <div>Hello There</div>,
+  },
 };
