@@ -6,6 +6,6 @@
   },
   "workspaces": [
     "extension",
-    "scandi-test"
+    "growlers"
   ]
 }
