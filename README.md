@@ -22,5 +22,5 @@ In `growlers`:
 
 # Links
 
-[ScandiPWA Plugins Reference](https://scandipwa.gitbook.io/docs/how-to-tutorials-intermediate/scandipwa-plugins)
-[Create ScandiPWA App](https://github.com/scandipwa/create-scandipwa-app)
+* [ScandiPWA Plugins Reference](https://scandipwa.gitbook.io/docs/how-to-tutorials-intermediate/scandipwa-plugins)
+* [Create ScandiPWA App](https://github.com/scandipwa/create-scandipwa-app)
